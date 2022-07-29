@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Forms</title>
 </head>
 <body>
+    <div class="my-forms">
     <h1>HTML FORMS</h1>
     <form>
-        <label for="">FIRST NAME:</label> <br> <br>
-        <input type="text" placeholder="First name"> <br> <br>
-        <label for="">LAST NAME:</label> <br> <br>
-        <input type="text" placeholder="Last name"> <br> <br>
-        <label for="">GENDER:</label>
+        <div class="my-border">
+        <label for="fname" class="block-labels">FIRST NAME:  </label>
+        <input type="text" placeholder="First name"> <br> 
+        <label for="lname" class="block-labels">LAST NAME:  </label> 
+        <input type="text" placeholder="Last name"> <br> 
+        <label for="gender" class="block-labels">GENDER:  </label>
         <input type="radio" value="Male" name="Gender">
         <label for="">Male</label>
         <input type="radio" value="female" name="Gender">
-        <label for="">Female</label> <br> <br>
-        <label for="">E-MAIL : </label> <br> <br>
-        <input type="email" placeholder="E-mail"> <br> <br>
-        <label for="">PASSWORD : </label> <br> <br>
-        <input type="password" placeholder="Password"> <br> <br>
-        <label for="">REPEAT PASSWORD : </label> <br> <br>
-        <input type="password" placeholder="Repeat Password"> <br> <br>
+        <label for="">Female</label> <br> 
+        <label for="e-mail box" class="block-labels">E-MAIL:  </label> 
+        <input type="email" placeholder="E-mail"> <br> 
+        <label for="password" class="block-labels">PASSWORD:  </label> 
+        <input type="password" placeholder="Password"> <br> 
+        <label for="password again" class="block-labels">REPEAT PASSWORD:  </label> 
+        <input type="password" placeholder="Repeat Password">  <br> <br>
         <input type="reset" value="RESET">
         <input type="Submit" value="SUBMIT">
+    </div>
     </form>
+</div>
 </body>
 </html>

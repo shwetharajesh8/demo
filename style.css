@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.my-forms {
+    background-color: rgb(130, 195, 241);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+.block-labels {
+    display: block;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+}
+.my-border {
+    border: 1px solid black;
+    background-color: rgb(62, 174, 254);
+    padding: 20px;
+    border-radius: 15px;
+}
+input {
+    padding: 2px;
+    font-size: 1rem;
+}
+
